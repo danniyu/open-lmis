@@ -144,8 +144,8 @@ task cleanWorkspace(type: Delete) {
 }
 
 build.doLast {
-//  karmaRun.execute()
-  jsHint.execute()
+  //karmaRun.execute()
+  //jsHint.execute()
   cleanWorkspace.execute()
 }
 
